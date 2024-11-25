@@ -1,0 +1,19 @@
+2024-11-25 17:14:INFO:====== WebDriver manager ======
+2024-11-25 17:14:INFO:Get LATEST chromedriver version for google-chrome
+2024-11-25 17:14:INFO:Get LATEST chromedriver version for google-chrome
+2024-11-25 17:14:INFO:Driver [C:\Users\Samsung\.wdm\drivers\chromedriver\win64\131.0.6778.85\chromedriver-win32/chromedriver.exe] found in cache
+2024-11-25 17:14:INFO:Test started for the homepage.
+2024-11-25 17:14:INFO:Opening the URL: https://www.makemytrip.com/hotels/
+2024-11-25 17:14:INFO:Maximized the browser window.
+2024-11-25 17:14:INFO:Set an implicit wait of 20 seconds.
+2024-11-25 17:14:INFO:Clicking on the login section.
+2024-11-25 17:14:INFO:Waiting for 5 seconds after clicking login section.
+2024-11-25 17:14:INFO:Clicking on the search section.
+2024-11-25 17:14:INFO:Entering city name: New Delhi.
+2024-11-25 17:14:INFO:Selecting the entered city.
+2024-11-25 17:14:INFO:Waiting for 3 seconds after selecting the city.
+2024-11-25 17:14:INFO:Clicking on the check-in date.
+2024-11-25 17:14:INFO:Clicking on the check-out date.
+2024-11-25 17:14:INFO:Clicking on the room selection.
+2024-11-25 17:14:INFO:Clicking on the search button to search for hotels.
+2024-11-25 17:14:INFO:Test for the homepage completed successfully.
