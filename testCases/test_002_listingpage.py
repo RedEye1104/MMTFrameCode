@@ -1,5 +1,8 @@
+import time
+
 from utilities.customLogger import Log_maker
 from pageObjects.Listingpage import ListingPage
+
 
 class TestListing:
     baseURL = 'https://www.makemytrip.com/hotels/hotel-listing/?_uCurrency=INR&checkin=01292025&checkout=01312025&city=CTDEL&country=IN&locusId=CTDEL&locusType=city&reference=hotel&roomStayQualifier=2e0e&rsc=1e2e0e&searchText=Delhi&type=city'
@@ -27,9 +30,11 @@ class TestListing:
         self.logger.info("Entering the Saket Location.")
         self.lp.ClickEnterLocation("Saket")
 
+        self.logger.info("Entering some extra time so that it can locate the element.")
+        time.sleep(5)
+
         self.logger.info("Clicking on the Selected Location")
         self.lp.ClickSelectLocation()
 
         self.logger.info("Clicking on the Selected Hotel.")
         self.lp.ClickHotelName()
-
