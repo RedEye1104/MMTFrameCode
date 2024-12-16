@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 
+
 class Homepage():
     LoginSection_Xpath = '//*[@id="SW"]/div[1]/div[2]/div[2]/div/section/span'
     SearchSection_Xpath = '//*[@id="city"]'
@@ -8,7 +9,7 @@ class Homepage():
     SelectCheckIN_Xpath = '//*[@id="top-banner"]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[2]/div[1]/div[3]/div[5]/div[4]'
     SelectCheckOut_Xpath = '//*[@id="top-banner"]/div[2]/div/div[1]/div[2]/div/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[2]/div[1]/div[3]/div[5]/div[6]'
     SelectRoom_Xpath = '//*[@id="top-banner"]/div[2]/div/div[1]/div[2]/div/div[1]/div[4]/div[1]/div[2]/button'
-    SelectSearch_Xpath ='//*[@id="hsw_search_button"]'
+    SelectSearch_Xpath = '//*[@id="hsw_search_button"]'
 
     def __init__(self, driver):
         self.driver = driver

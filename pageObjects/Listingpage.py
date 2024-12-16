@@ -1,5 +1,5 @@
-
 from selenium.webdriver.common.by import By
+
 
 class ListingPage:
     SearchSection_Xpath = '//*[@id="hsw_search_button"]'
@@ -17,7 +17,7 @@ class ListingPage:
     def ClickLocation(self):
         self.driver.find_element(By.XPATH, self.SearchLocation_Xpath).click()
 
-    def ClickEnterLocation(self,EnterLocation):
+    def ClickEnterLocation(self, EnterLocation):
         self.driver.find_element(By.XPATH, self.EnterLocation_Xpath).send_keys(EnterLocation)
 
     def ClickSelectLocation(self):
